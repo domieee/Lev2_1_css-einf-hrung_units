@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+/* 
+Die Einheit *rem* orientiert sich an der festgelegten Größe des root-Elements. Wenn zuvor kein Wert für das Elternelement festgelegt wurde, ist 16px die default Einstellug
+1.2 * 16 = 19.2px 
+*/
+
+section {
+    font-size: 1.5rem;
+    border: 2px
+            solid
+            black;
+}
+
+/* 
+Die Einheit *em* orientiert sich and seinem Elternelement.
+*/
+
+ul {
+    padding-inline-start: 1.2em;
+}
+
+li {
+    line-height: 1.5em;
+}
+
+.firstLevel {
+    font-size: 0.8em;
+}
+
+.secondLevel {
+    font-size: 0.8em;
+}
+
+.thirdLevel {
+    font-size: 0.8em;
+}
+
+.listStyleCat {
+    list-style: url(../media/1F408.svg);
+}
