@@ -3,7 +3,8 @@
 }
 
 /* 
-Die Einheit *rem* orientiert sich an der festgelegten Größe des root-Elements. Wenn zuvor kein Wert für das Elternelement festgelegt wurde, ist 16px die default Einstellug
+*rem* orientiert sich an der festgelegten Größe des root-Elements.
+16px der default Wert
 1.2 * 16 = 19.2px 
 */
 
@@ -15,7 +16,8 @@ section {
 }
 
 /* 
-Die Einheit *em* orientiert sich and seinem Elternelement.
+*em* orientiert sich an seinem Elternelement.
+*padding-inline-start* addiert ein padding am Anfang von Text, abhängig von Textaurichtung, direction und writing-mode
 */
 
 ul {
@@ -28,16 +30,30 @@ li {
 
 .firstLevel {
     font-size: 0.8em;
+    list-style-type: none;
 }
 
 .secondLevel {
     font-size: 0.8em;
+    list-style-type: none;
 }
 
 .thirdLevel {
     font-size: 0.8em;
 }
 
-.listStyleCat {
-    list-style: url(../media/1F408.svg);
+.listStyleTypeDog {
+    list-style-type: "🐕";
+}
+.listStyleTypeCat {
+    list-style-type: "🐈";
+}
+.listStyleTypeParrot {
+    list-style-type: "🦜";
+}
+.listStyleTypeSnake {
+    list-style-type: "🐍";
+}
+.listStyleTypeLizard {
+    list-style-type: "🦎";
 }
