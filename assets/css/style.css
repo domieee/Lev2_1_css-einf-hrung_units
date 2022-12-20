@@ -17,23 +17,27 @@ section {
 
 /* 
 *em* orientiert sich an seinem Elternelement.
-*padding-inline-start* addiert ein padding am Anfang von Text, abhängig von Textaurichtung, direction und writing-mode
+[[padding-inline-start]] addiert ein padding am Anfang von Text, abhängig von [[text-orientation]], [[direction]] und [[writing-mode]]
 */
 
 ul {
     padding-inline-start: 1.2em;
 }
 
+/* 
+[[line-height]] legt die höhe jeder Spalte fest
+*/
+
 li {
     line-height: 1.5em;
 }
 
-.firstLevel {
-    font-size: 0.8em;
-    list-style-type: none;
-}
+/* 
+[[list-style-type]] ist Teil der Gruppe [[list-style]]
+Es wird genutzt um die Aufzählungszeichen von Listenelementen zu verändern
+*/
 
-.secondLevel {
+.firstLevel, .secondLevel {
     font-size: 0.8em;
     list-style-type: none;
 }
